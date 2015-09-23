@@ -1,4 +1,4 @@
-# Online course materials for frontend lecture on WebRTC
+# Frontend is rock’n’roll — and so can you ... with a little help from our awesome online course materials! 
 
 ## Teilnahmevoraussetzungen
 
