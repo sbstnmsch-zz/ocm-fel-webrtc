@@ -9,7 +9,7 @@
             });
         }
     };
-    $.fn.flip = function() {
+    $.fn.clickFlip = function() {
         return this.each(function() {
             var element = $( this );
             var flip = new Flipper(element);
