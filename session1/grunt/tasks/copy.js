@@ -1,8 +1,10 @@
 module.exports = {
     cat: {
         files: [{
+            expand: false,
             expand: true,
-            src: ['src/*'],
+            cwd: "src",
+            src: ['**/**'],
             dest: 'dist/'
         }]
     }
