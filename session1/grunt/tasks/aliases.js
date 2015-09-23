@@ -3,12 +3,13 @@ module.exports = {
   default: [
     "clean",
     "copy",
-    "http-server"
+    "connect",
+    "keepalive"
   ],
   dev: [
     "clean",
     "copy",
-    "watch",
-    "http-server"
+    "connect",
+    "watch"
   ]
 };
