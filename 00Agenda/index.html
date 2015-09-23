@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>The big picture</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<h1>Frontend is rock’n’roll</h1>
+					<h3>And so can you!</h3>
+					<p>
+						<small>mbaer3000 and kafis</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Agenda</h2>
+					<p>Node und Grunt</p>
+					<p>...</p>
+				</section>
+
+				<section>
+					<h2>Node und Grunt</h2>
+					<aside class="notes">
+						node und grunt, ca. 1 Stunde
+						Lernziel: node installieren (nvm), Grunt-Tasks verstehen und konfigurieren (gruntfile schreiben)
+						1. Vortrag: was ist node, was ist grunt
+						2. Hands-on-Session: node installieren, grunt installieren (2 tasks installieren, serve, mit livereload, watcher, Katzenbild)
+						3. Aufgabe: Konfiguriere ein Grunt-Setup, das baut und servt.
+					</aside>
+				</section>
+
+				<section>
+					<h2>Dependency-Management mit Bower und Co.</h2>
+					<aside class="notes">
+						script-Tags auf CDNs, npm, bower, systemjs, ca. 1 Stunde
+						Lernziel: Benötigte Bibliotheken ziehen zu können, in grunt-Buildchain integrieren (spin da cat with jQuery)
+						1. Vortrag: Dependencies, (optional: globals-Problem, Module), warum, weshalb, wieso
+						2. Hands-on-Session: Bootstrap ziehen, in Buildchain integrieren
+						3. Aufgabe: Spin da cat with jQuery (auf Basis von schon fertigem Drehcode -- jQuery-Plugin)
+					</aside>
+				</section>
+
+				<section>
+					<h2>Testen mit Karma, Mocha und Co.</h2>
+					<aside class="notes">
+						unit-testen von JS-Code und DOM, ca. 1 Stunde
+						Lernziel: Aufsetzen eines Build-Steps, der JS-Code testet
+						1. Vortrag: testen dies testen das
+						2. Hands-on-Session: Gemeinsames Aufsetzen des Build-Steps und ersten Test schreiben
+						3. Aufgabe: Selber Test schreiben, der guckt, das Katze sich dreht
+					</aside>
+				</section>
+
+				<section>
+					<h2>Module und Packen</h2>
+					<aside class="notes">
+						Packaging und Modulsysteme, ca. 1 Stunde
+						Lernziel: Modulsysteme und -Ansätze kennenlernen, Minifizierung, Konkatenierung
+						1. Vortrag: packen, module dies und das (CommonJS, AMD, ES6, script-Tags)
+						2. Hands-on-Session: Gemeinsames Aufsetzen des Build-Steps der das alles macht (sprich: alles in einer app.js, inkl. lib.js; properly modul required)
+						3. Aufgabe: Auseinander-Friemeln von app und lib, oder jQuery mit Zepto ersetzen
+					</aside>
+				</section>
+
+				<section>
+					<h2>Veröffentlichen als Bower-Modul</h2>
+					<aside class="notes">
+						jQuery-Plugin veröffentlichen: 0.5 Stunden
+						Lernziel: Module eröffentlichen können
+						1. Vortrag: git tags, Versionierung, bower repo
+						2. Hands-on-Session: Bower-Modul veröffentlichen
+						3. Aufgabe:
+					</aside>
+				</section>
+
+				<!-- Ausblick: CSS-Preprozessoren, ES6, HTML-Accessibility -->
+
+				<!-- Literatur-Hinweise -->
+
+				<!-- Offene Fragen -->
+
+			</div>
+		</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: true,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+	</body>
+</html>

@@ -1,3 +1,6 @@
 # Online course materials for frontend lecture on WebRTC
 
-Hi there ...
+## Teilnahmevoraussetzungen
+
+- Github-Account
+- Rechner mit WLAN (kein VPN zum Devnet erforderlich)
