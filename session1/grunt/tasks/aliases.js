@@ -4,5 +4,11 @@ module.exports = {
     "clean",
     "copy",
     "http-server"
+  ],
+  dev: [
+    "clean",
+    "copy",
+    "watch",
+    "http-server"
   ]
 };
