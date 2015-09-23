@@ -1,0 +1,2 @@
+1. erstelle package.json
+2. npm install grunt --save-dev
