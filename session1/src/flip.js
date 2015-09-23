@@ -12,7 +12,8 @@
     $.fn.flip = function() {
         return this.each(function() {
             var element = $( this );
-            element.click(new Flipper(element));
+            var flip = new Flipper(element);
+            element.click(flip);
         });
     };
 }(jQuery));
