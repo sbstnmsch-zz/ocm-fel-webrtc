@@ -1,0 +1,6 @@
+{
+  "name": "flip-it",
+  "devDependencies": {
+    "jquery": "latest"
+  }
+}
