@@ -1,3 +1,0 @@
-1. erstelle package.json
-2. npm install grunt --save-dev
-3. im Projekt npm install machen
