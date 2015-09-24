@@ -17,6 +17,7 @@ module.exports = {
     "watch"
   ],
   test: [
-    "jshint"
+    "jshint",
+    "jasmine"
   ]
 };
