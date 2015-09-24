@@ -3,6 +3,7 @@ module.exports = {
   default: [
     "clean",
     "bower",
+    "test",
     "copy",
     "connect",
     "keepalive"
@@ -10,8 +11,12 @@ module.exports = {
   dev: [
     "clean",
     "bower",
+    "test",
     "copy",
     "connect",
     "watch"
+  ],
+  test: [
+    "jshint"
   ]
 };

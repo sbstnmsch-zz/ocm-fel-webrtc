@@ -7,7 +7,7 @@
             element.css({
                 'transform': 'scaleY('+scale+')'
             });
-        }
+        };
     };
     $.fn.clickFlip = function() {
         return this.each(function() {

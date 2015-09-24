@@ -1,7 +1,8 @@
 module.exports = {
    cat: {
        files: ['src/*.*'],
-       tasks: ['copy'],
+       tasks: ['test',
+               'copy'],
        options: {
            livereload: true,
            spawn: true
