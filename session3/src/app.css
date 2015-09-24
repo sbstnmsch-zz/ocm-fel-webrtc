@@ -1,0 +1,17 @@
+.cat-image {
+    max-width: 100%;
+    width: 30em;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 25px;
+    background-color: #eee8d5;
+    font-family: 'Vollkorn', serif;
+}
+
+* {
+    box-sizing: border-box;
+    position: relative;
+}
