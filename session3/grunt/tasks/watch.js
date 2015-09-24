@@ -1,6 +1,6 @@
 module.exports = {
    cat: {
-       files: ['src/*.*'],
+       files: ['src/*.*', 'test/*.*'],
        tasks: ['test',
                'copy'],
        options: {
