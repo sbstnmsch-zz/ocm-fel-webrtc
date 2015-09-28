@@ -1,5 +1,5 @@
 module.exports = {
   buildJsToDist: {
-    command: 'jspm bundle-sfx src/flip dist/flip.js'
+    command: 'jspm bundle-sfx src/js/flip dist/flip.js'
   }
 };

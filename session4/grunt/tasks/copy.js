@@ -4,8 +4,8 @@ module.exports = {
             expand: true,
             cwd: "src",
             src: ['**/*.{html,jpg,css}'],
-            dest: 'dist/'
+            dest: 'dist/',
+            flatten: true
         }]
     }
-
 };
