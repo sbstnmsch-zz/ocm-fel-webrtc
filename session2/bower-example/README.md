@@ -1,30 +1,5 @@
-# Erste Schritte mit Node, NPM und Grunt
+# Paketabhängigkeiten mit Bower managen
 
-## Voraussetzungen
-
-- Node.js
-- NPM
-
-Empfohlen ist zudem ein global verfügbares Grunt, installiert mittels:
-
-```
-npm install -g grunt 
-```
-
-## Installation
-
-```
-npm install
-```
-
-## Entwicklung
-
-```
-grunt dev
-```
-
-## Einfach nur laufen lassen
-
-```
-grunt
-```
+In diesem Beispiel managen wir unsere Paketabhängigkeiten mit Bower, einem 
+Tool, das für genau diesen Zweck konzipiert ist. Zitat: “A package manager 
+for the web”.
