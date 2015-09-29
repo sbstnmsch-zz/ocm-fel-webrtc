@@ -1,30 +1,22 @@
 import $ from 'jquery';
 import { invert } from 'src/js/lib/invert';
 
-function init() {
-    registerJQueryPlugins();
-}
+(function($) {
 
-function registerJQueryPlugins() {
-    (function($) {
-
-        var Flipper = function(element) {
-            var scale = 1;
-            return function() {
-                scale = invert(scale);
-                element.css({
-                    'transform': 'scaleY('+scale+')'
-                });
-            };
-        };
-        $.fn.clickFlip = function() {
-            return this.each(function() {
-                var element = $( this );
-                var flip = new Flipper(element);
-                element.click(flip);
+    const Flipper = (element) => {
+        let scale = 1;
+        return () => {
+            scale = invert(scale);
+            element.css({
+                'transform': `scaleY(${scale})`
             });
         };
-    }($));
-}
-
-init();
+    };
+    $.fn.clickFlip = function() {
+        return this.each(function() {
+            let element = $(this);
+            let flip = new Flipper(element);
+            element.click(flip);
+        });
+    };
+}($));
