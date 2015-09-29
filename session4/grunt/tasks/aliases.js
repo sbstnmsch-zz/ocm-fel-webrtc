@@ -1,5 +1,10 @@
 /* globals module */
 module.exports = {
+  build: [
+    "clean:dist",
+    "copy:cat",
+    "shell:buildJsToDist"
+  ],
   default: [
     "clean:dist",
     "test",
