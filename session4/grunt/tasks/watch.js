@@ -3,7 +3,7 @@ module.exports = {
        files: ['src/**/*', 'test/**/*'],
        tasks: [
          'clean:dist',
-         //'test',
+         'test',
          'copy:cat',
          'shell:buildJsToDist'
        ],
