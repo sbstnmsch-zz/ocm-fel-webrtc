@@ -2,7 +2,7 @@
 module.exports = {
   default: [
     "clean:dist",
-    //"test",
+    "test",
     "copy:cat",
     "shell:buildJsToDist",
     "connect",
@@ -10,7 +10,7 @@ module.exports = {
   ],
   dev: [
     "clean:dist",
-    //"test",
+    "test",
     "copy:cat",
     "shell:buildJsToDist",
     "connect",
@@ -21,7 +21,9 @@ module.exports = {
     "keepalive"
   ],
   test: [
+    "clean:testBuild",
     "jshint",
+    "shell:buildInvertSpecToDist",
     "jasmine",
     "karma"
   ]

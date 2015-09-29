@@ -15,9 +15,10 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'bower_components/jquery/dist/jquery.js',
-      'src/flip.js',
-      'test/**/*.spec.js'
+      //'bower_components/jquery/dist/jquery.js',
+      //'src/flip.js',
+      //'dist/flip.js',
+      'test/build/**/*.spec.js'
     ],
 
 

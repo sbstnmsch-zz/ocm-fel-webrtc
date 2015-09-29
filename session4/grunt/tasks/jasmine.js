@@ -1,10 +1,11 @@
 module.exports = {
     cat: {
-        src: './src/**/*.js',
+        //src: './dist/**/*.js',
         options: {
-            specs: './test/**/*.spec.js',
+            specs: './test/build/**/*.spec.js',
             vendor: [
-                "./bower_components/jquery/dist/jquery.js"
+                //'./dist/flip.js'
+                //"./bower_components/jquery/dist/jquery.js"
             ]
         }
     }

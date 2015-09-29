@@ -1,4 +1,4 @@
-describe("The clickFlip Plugin", function() {
+xdescribe("The clickFlip Plugin", function() {
     var element;
 
     beforeEach(function() {
