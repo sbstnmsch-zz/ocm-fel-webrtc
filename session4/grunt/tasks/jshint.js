@@ -3,6 +3,6 @@ module.exports = {
         esnext: true
     },
     cat: {
-        src: ["./src/**.js", ".test/**.js"]
+        src: ["./src/**/*.js", ".test/**/*.js"]
     }
 };
