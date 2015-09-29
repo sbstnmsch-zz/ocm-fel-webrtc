@@ -1,4 +1,6 @@
-xdescribe("The clickFlip Plugin", function() {
+require('src/js/flip.js');
+
+describe("The clickFlip Plugin", function() {
     var element;
 
     beforeEach(function() {

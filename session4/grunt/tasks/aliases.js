@@ -24,6 +24,7 @@ module.exports = {
     "clean:testBuild",
     "jshint",
     "shell:buildInvertSpecToDist",
+    "shell:buildClickFlipSpecToDist",
     "jasmine",
     "karma"
   ]
