@@ -2,7 +2,7 @@
 
 ## Teilnahmevoraussetzungen
 
-- Rechner mit WLAN
+- Rechner mit WLAN und Chrome-Browser
 - Keine Angst vor JavaScript
 
 ## Agenda:
