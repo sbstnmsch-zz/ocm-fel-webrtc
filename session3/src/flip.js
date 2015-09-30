@@ -12,7 +12,7 @@
     function registerJQueryPlugins() {
         (function ( $ ) {
 
-            var Flipper = function(element) {
+            var flipFnFactory = function(element) {
                 var scale = 1;
                 return function() {
                     scale = app.invert(scale);
@@ -24,7 +24,7 @@
             $.fn.clickFlip = function() {
                 return this.each(function() {
                     var element = $( this );
-                    var flip = new Flipper(element);
+                    var flip = flipFnFactory(element);
                     element.click(flip);
                 });
             };
