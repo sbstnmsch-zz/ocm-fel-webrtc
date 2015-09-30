@@ -2,20 +2,22 @@ import { invert } from 'src/js/lib/invert';
 
 (function($) {
 
-  const Flipper = (element) => {
-    let scale = 1;
+  const flipFnFactory = (element, scale=1) => {
     return () => {
-      scale = invert(scale);
-      element.css({
-        'transform': `scaleY(${scale})`
+      element.css(
+        'transform',
+        `scaleY(${scale = invert(scale)})`
+      );
+    };
+  };
+
+  $.fn.clickFlip = function() {
+    return this.each(function() {
+      let
+        element = $(this),
+        flip = flipFnFactory(element);
+      element.on('click', flip);
     });
   };
-};
-$.fn.clickFlip = function() {
-  return this.each(function() {
-    let element = $(this);
-    let flip = new Flipper(element);
-    element.on('click', flip);
-  });
-};
+
 }($));
