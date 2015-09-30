@@ -2,13 +2,10 @@
 
 ## Teilnahmevoraussetzungen
 
-- Github-Account
-- Rechner mit WLAN (kein VPN zum Devnet erforderlich)
+- Rechner mit WLAN
+- Keine Angst vor JavaScript
 
-## Zeitaufwand
-
-- keine Vorbereitung nötig
-- Präsenzzeit:
+## Agenda:
   - 09.15 - 09.35 Einführung, Belehrung, Kurzeinführungsvortrag
   - 09.35 - 10.35 Session 1 (node und grunt)
   - 11.00 - 12.00 Session 2 (Dependency-Management)
