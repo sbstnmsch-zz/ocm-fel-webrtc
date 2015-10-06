@@ -1,4 +1,4 @@
-# Frontend is rock’n’roll — and so can you ... with a little help from our awesome online course materials! 
+# Frontend is rock’n’roll — and so can you ... with a little help from our awesome online course materials!
 
 ## Teilnahmevoraussetzungen
 
@@ -6,10 +6,10 @@
 - Keine Angst vor JavaScript
 
 ## Agenda:
-  - 09.15 - 09.35 Einführung, Belehrung, Kurzeinführungsvortrag
-  - 09.35 - 10.35 Session 1 (node und grunt)
-  - 11.00 - 12.00 Session 2 (Dependency-Management)
-  - 13.10 - 14.10 Session 3 (Testen)
-  - 14.25 - 15.25 Session 4 (Modularisierung)
-  - 15.40 - 16.40 Session 5 (Bauen, Packen, Veröffentlichen)
-  - 16.40 - 17.25 offene Fragen, Freestyle
+  - 09.00 - 09.15 Einführung, Belehrung, Kurzeinführungsvortrag
+  - 09.15 - 10.15 Session 1 (node und grunt)
+  - 10.30 - 11.30 Session 2 (Dependency-Management)
+  - 11.50 - 12.35 Session 3 (Testen)
+  - 13.00 - 14.00 Session 4 (Modularisierung)
+  - 15.00 - 16.00 Session 5 (Bauen, Packen, Veröffentlichen)
+  - 16.10 - 17.30 offene Fragen, Freestyle
