@@ -8,10 +8,7 @@ module.exports = function (grunt) {
     configPath: path.join(process.cwd(), 'grunt', 'tasks'),
     init: true,
     data: {
-      options: {
-      },
-      paths: require(path.join(process.cwd(), 'grunt', 'options/') + 'paths.json'),
-      files: require(path.join(process.cwd(), 'grunt', 'options/') + 'files.json')
+      config: require(path.join(process.cwd(), 'grunt', 'options/') + 'config.json')
     },
     loadGruntTasks: {
       config: require('./package.json'),

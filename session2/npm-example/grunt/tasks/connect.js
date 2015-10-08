@@ -1,7 +1,7 @@
 module.exports = {
   cat: {
     options: {
-      port: 8008,
+      port: 3518,
       livereload: true,
       base: {
         path: 'dist',
