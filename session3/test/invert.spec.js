@@ -1,7 +1,8 @@
 describe("invert function", function() {
+
+    var invert = app.invert;
+
     it("should invert a number", function() {
-        expect(app.invert(1)).toBe(-1);
-        expect(app.invert(-1)).toBe(1);
-        expect(app.invert(0)).toBe(0);
+        invert(2);
     });
 });
