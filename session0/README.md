@@ -34,7 +34,7 @@ so um, sodass folgende Ziele erreicht werden:
 - Ausführung und Definition der Funktion voneinander trennen,
 - der Funktion einen beliebigen String übergeben, den diese dann ausgibt,
 - in der Funktion überprüfen, ob es sich beim übergebenen Wert tatsächlich um
- einen String handelt
+  einen String handelt
 
 ## Variablen, Scope und Closures
 
@@ -67,3 +67,14 @@ Wieder erarbeiten wir gemeinsam, was in den beiden Code-Beispielen passiert.
 Das erste Beispiel bauen wir nun so um, dass die letzte Log-Ausgabe wieder 
 'Hello World' lautet. Das zweite Beispiel so, dass die Zahlen von 1 bis 10 
 augegeben werden.
+
+## Funktionen als Objekte
+
+Funktionen sind in JavaScript "First Class Citizens", das heißt, sie sind -- 
+abgesehen davon, dass man sie ausführen kann -- ganz normale Objekte: Man 
+kann sie also umherreichen. Mithin kann eine Funktion eine Funktion erzeugen 
+und diese als Rückgabewert haben.
+
+Bauen wir eine Funktion add(), mit der die folgende Expression true wird:
+
+    add(1)(1) === 2
